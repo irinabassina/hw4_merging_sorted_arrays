@@ -24,13 +24,6 @@ func mergeSort(a, b []int) (res []int) {
 	return res
 }
 
-// func sortArr(a []int, b []int) ([]int, []int) {
-// 	sort.Ints(a[:])
-// 	sort.Ints(b[:])
-
-// 	return a, b
-// }
-
 func sortArr(c []int, d []int) ([]int, []int) {
 	sort.Ints(c[:])
 	sort.Ints(d[:])
